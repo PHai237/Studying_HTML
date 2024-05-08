@@ -1,5 +1,5 @@
 #course{
-    background-color: blue;
+    /* background-color: blue; */
     width: 1170px;
     display: flex;
     position: relative;
@@ -19,7 +19,7 @@ h1{
 }
 
 .c123{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -28,7 +28,7 @@ h1{
 }
 
 .c1{
-    background-color: red;
+    /* background-color: red; */
     width: 30%;
     height: 350px;
     display: flex;
@@ -46,7 +46,7 @@ h1{
 }
 
 .c2{
-    background-color: red;
+    /* background-color: red; */
     width: 30%;
     height: 350px;
     display: flex;
@@ -64,7 +64,7 @@ h1{
 }
 
 .c3{
-    background-color: red;
+    /* background-color: red; */
     width: 30%;
     height: 350px;
     display: flex;
@@ -82,7 +82,7 @@ h1{
 }
 
 .c456{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -90,7 +90,7 @@ h1{
 }
 
 .c4{
-    background-color: red;
+    /* background-color: red; */
     width: 30%;
     height: 350px;
     display: flex;
@@ -108,7 +108,7 @@ h1{
 }
 
 .c5{
-    background-color: red;
+    /* background-color: red; */
     width: 30%;
     height: 350px;
     display: flex;
@@ -126,7 +126,7 @@ h1{
 }
 
 .c6{
-    background-color: red;
+    /* background-color: red; */
     width: 30%;
     height: 350px;
     display: flex;
