@@ -156,13 +156,13 @@ h1{
 }
 
 .money::before{
-    content: url(/img/icons/gift.png);
+    content: url(/web/img/icons/gift.png);
     vertical-align: middle;
     margin: 0 7px 0 3px;
 }
 
 .time::before{
-    content: url(/img/icons/time.png);
+    content: url(/web/img/icons/time.png);
     vertical-align: middle;
     margin: -50px 7px -10px 3px;
 }
