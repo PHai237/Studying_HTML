@@ -1,11 +1,12 @@
 #course{
     /* background-color: blue; */
-    width: 1170px;
+    width: 1200px;
     display: flex;
-    position: relative;
     flex-direction: column;
-    left: 6%;
-    right: 6%;
+    left: 5%;
+    right: 7%;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
 }
 
 h1{
@@ -13,8 +14,15 @@ h1{
     font-size: 25px;
     border-left: 5px solid;
     padding-left: 15px;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     padding: 5px 10px;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 15px;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
@@ -25,14 +33,16 @@ h1{
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 60px;
+    font-size: 15px;
 }
 
 .c1{
     /* background-color: red; */
-    width: 30%;
+    width: 33%;
     height: 350px;
     display: flex;
     align-items: flex-start;
+    margin-right: 30px;
 }
 
 .c1 img{
@@ -47,10 +57,11 @@ h1{
 
 .c2{
     /* background-color: red; */
-    width: 30%;
+    width: 33%;
     height: 350px;
     display: flex;
     align-items: flex-start;
+    margin-right: 30px;
 }
 
 .c2 img{
@@ -65,10 +76,11 @@ h1{
 
 .c3{
     /* background-color: red; */
-    width: 30%;
+    width: 33%;
     height: 350px;
     display: flex;
     align-items: flex-start;
+    
 }
 
 .c3 img{
@@ -88,14 +100,16 @@ h1{
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 30px;
+    font-size: 15px;
 }
 
 .c4{
     /* background-color: red; */
-    width: 30%;
+    width: 33%;
     height: 350px;
     display: flex;
     align-items: flex-start;
+    margin-right: 30px;
 }
 
 .c4 img{
@@ -110,10 +124,11 @@ h1{
 
 .c5{
     /* background-color: red; */
-    width: 30%;
+    width: 33%;
     height: 350px;
     display: flex;
     align-items: flex-start;
+    margin-right: 30px;
 }
 
 .c5 img{
@@ -128,7 +143,7 @@ h1{
 
 .c6{
     /* background-color: red; */
-    width: 30%;
+    width: 33%;
     height: 350px;
     display: flex;
     align-items: flex-start;
@@ -150,6 +165,7 @@ h1{
     flex-direction: row;
     padding-top: 8px;
     margin-bottom: -5px;
+    cursor: pointer;
 }
 
 /* .money::before{
@@ -173,14 +189,17 @@ h1{
 .gift{
     content: url(/web/img/icons/gift.png);
     margin: 0 6px 0 0;
+    cursor: pointer;
 }
 
 .time{
     content: url(/web/img/icons/time.png);
     margin: 0 6px 0 0;
+    cursor: pointer;
 }
 
 .bookmark{
     content: url(/web/img/icons/bookmark.png);
     margin: 0 6px 0 0;
+    cursor: pointer;
 }
