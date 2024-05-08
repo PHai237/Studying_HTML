@@ -1,6 +1,6 @@
 #course{
     background-color: blue;
-    width: 1340px;
+    width: 1170px;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -30,15 +30,14 @@ h1{
 .c1{
     background-color: red;
     width: 30%;
-    height: 400px;
+    height: 350px;
     display: flex;
-
     align-items: flex-start;
 }
 
 .c1 img{
     width: 100%;
-    height: 25%;
+    height: 150px;
     cursor: pointer;
 }
 
@@ -49,16 +48,15 @@ h1{
 .c2{
     background-color: red;
     width: 30%;
-    height: 270px;
+    height: 350px;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    padding: 0 50px;
 }
 
 .c2 img{
     width: 100%;
-    height: 53%;
+    height: 150px;
+    cursor: pointer;
 }
 
 .c2 p{
@@ -68,15 +66,15 @@ h1{
 .c3{
     background-color: red;
     width: 30%;
-    height: 270px;
+    height: 350px;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
 }
 
 .c3 img{
     width: 100%;
-    height: 53%;
+    height: 150px;
+    cursor: pointer;
 }
 
 .c3 p{
@@ -94,15 +92,14 @@ h1{
 .c4{
     background-color: red;
     width: 30%;
-    height: 270px;
+    height: 350px;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
 }
 
 .c4 img{
     width: 100%;
-    height: 53%;
+    height: 150px;
     cursor: pointer;
 }
 
@@ -113,16 +110,14 @@ h1{
 .c5{
     background-color: red;
     width: 30%;
-    height: 270px;
+    height: 350px;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    padding: 0 50px;
 }
 
 .c5 img{
     width: 100%;
-    height: 53%;
+    height: 150px;
     cursor: pointer;
 }
 
@@ -133,15 +128,14 @@ h1{
 .c6{
     background-color: red;
     width: 30%;
-    height: 270px;
+    height: 350px;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
 }
 
 .c6 img{
     width: 100%;
-    height: 53%;
+    height: 150px;
     cursor: pointer;
 }
 
@@ -149,13 +143,15 @@ h1{
     margin-top: 0;
 }
 
-.cost{
+.cost p{
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
+    padding-top: 8px;
+    margin-bottom: -5px;
 }
 
-.money::before{
+/* .money::before{
     content: url(/web/img/icons/gift.png);
     vertical-align: middle;
     margin: 0 7px 0 3px;
@@ -164,5 +160,26 @@ h1{
 .time::before{
     content: url(/web/img/icons/time.png);
     vertical-align: middle;
-    margin: -50px 7px -10px 3px;
+    margin: 0 7px 0 3px;
+}
+
+.mark::before{
+    content: url(/web/img/icons/bookmark.png);
+    vertical-align: middle;
+    margin: 0 7px 0 3px;
+} */
+
+.gift{
+    content: url(/web/img/icons/gift.png);
+    margin: 0 6px 0 0;
+}
+
+.time{
+    content: url(/web/img/icons/time.png);
+    margin: 0 6px 0 0;
+}
+
+.bookmark{
+    content: url(/web/img/icons/bookmark.png);
+    margin: 0 6px 0 0;
 }
