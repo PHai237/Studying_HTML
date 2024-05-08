@@ -85,8 +85,9 @@ h1{
     /* background-color: aqua; */
     width: 100%;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .c4{
