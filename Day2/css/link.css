@@ -32,7 +32,7 @@ html{
     object-position: center;
 }
 
-.card img{
+.circle{
     width: 150px;
     height: 150px;
     overflow: hidden;
@@ -44,7 +44,7 @@ html{
     cursor: pointer;
 }
 
-.card img:hover{
+.circle:hover{
     width: 100%;
     height: 100%;
     border: unset;
@@ -62,4 +62,24 @@ html{
     color: #F17169;
     margin-top: -20px;
     font-size: 20px;
+}
+
+.first, .second{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    margin: 35px 0;
+}
+
+.first i, .second i{
+    font-size: x-large;
+    color: white;
+}
+
+.first i:hover, .second i:hover{
+    color: #F17169;
 }
