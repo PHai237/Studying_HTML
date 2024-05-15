@@ -7,6 +7,7 @@ html{
     font-family: "Poppins", sans-serif;
 }
 
+/* Box including 3 cards */
 .box{
     /* background-color: aqua; */
     width: 1000px;
@@ -15,6 +16,7 @@ html{
     justify-content: space-between;
 }
 
+/* Card of each person */
 .card{
     background-color: #242628;
     width: 200px;
@@ -32,6 +34,7 @@ html{
     object-position: center;
 }
 
+/* The circle with transform */
 .circle{
     width: 150px;
     height: 150px;
@@ -53,6 +56,7 @@ html{
     object-fit: cover;
 }
 
+/* Name and Job */
 .box h2{
     color: white;
     margin-top: 40px;
@@ -64,6 +68,7 @@ html{
     font-size: 20px;
 }
 
+/* Icons */
 .first, .second{
     /* background-color: aqua; */
     width: 100%;
@@ -80,6 +85,7 @@ html{
     color: white;
 }
 
+/* Change color */
 .first i:hover, .second i:hover{
     color: #F17169;
 }
