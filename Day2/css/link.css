@@ -1,0 +1,91 @@
+html{
+    background: linear-gradient(225deg, rgb(56, 180, 103), rgb(20, 150, 77));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Box including 3 cards */
+.box{
+    /* background-color: aqua; */
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Card of each person */
+.card{
+    background-color: #242628;
+    width: 200px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* The circle with transform */
+.circle{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    transition: 0.25s;
+    margin: 0 auto;
+    transform: translateY(25px);
+    border-radius: 50%;
+    border: 4px solid #F17169;
+    cursor: pointer;
+}
+
+.circle:hover{
+    width: 100%;
+    height: 100%;
+    border: unset;
+    transform: unset;
+    border-radius: unset;
+    object-fit: cover;
+}
+
+/* Name and Job */
+.box h2{
+    color: white;
+    margin-top: 40px;
+}
+
+.box p{
+    color: #F17169;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+/* Icons */
+.first, .second{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    margin: 35px 0;
+}
+
+.first i, .second i{
+    font-size: x-large;
+    color: white;
+}
+
+/* Change color */
+.first i:hover, .second i:hover{
+    color: #F17169;
+}
